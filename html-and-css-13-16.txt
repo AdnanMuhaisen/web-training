@@ -1,0 +1,64 @@
+css 13-16
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="C:\\learn-web\\CSS\\main.css">
+</head>
+
+<body>
+    <!-- css -> 13-16 -->
+    <section class="first-assignment">
+        <div class="parent">
+            <div class="child">This Is Child <span class="title">Title</span></div>
+            <span class="title">Child Title</span>
+            <p>Paragraph Content</p>
+        </div>
+        <div class="title">Section Title</div>
+    </section>
+
+    <hr>
+
+    <section class="second-assignment">
+        <div class="title-1">Title One</div>
+        <div class="title-2">Title one Title two </div>
+        <div>Title three with many many many many words</div>
+        <div class="title-4">Title four with many many many manymany many many manymany many many manymany many many
+            manymany many many many
+            words</div>
+    </section>
+
+</body>
+
+</html>
+------------------------------------------------------------------------
+div div span {
+    color: red;
+}
+
+div span {
+    color: blue;
+}
+
+div p,
+div.title {
+    color: green;
+}
+
+.second-assignment div {
+    max-width: 400px;
+    background-color: brown;
+    width: fit-content;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.second-assignment .title-4 {
+    max-height: 30px;
+    color: black;
+    overflow: hidden;
+}
