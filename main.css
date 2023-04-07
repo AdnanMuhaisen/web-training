@@ -1,0 +1,28 @@
+/* css 13-16 */
+div div span {
+    color: red;
+}
+
+div span {
+    color: blue;
+}
+
+div p,
+div.title {
+    color: green;
+}
+
+.second-assignment div {
+    max-width: 400px;
+    background-color: brown;
+    width: fit-content;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.second-assignment .title-4 {
+    max-height: 30px;
+    color: black;
+    overflow: hidden;
+}
